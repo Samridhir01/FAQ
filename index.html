@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>FAQ Accordion</title>
+</head>
+<body>
+    <h1>"Frequently asked <strong>Questions"</strong></h1>
+    <div class="faq-container"> 
+        <div class="faq active">
+            <h3 class="faq-title">
+                What is React ?
+            </h3>
+            <p class="faq-text">
+                React anchors the MERN stack. In some sense, this is the defining component of the MERN stack.
+                React is an open-source JavaScript library maintained by Facebook that can be used for creating views
+                rendered in HTML. Unlike AngularJS, React is not a framework.
+            </p>
+            <button class="faq-toggle">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    
+        <div class="faq">
+            <h3 class="faq-title">
+                Why Facebook Invented React ?
+            </h3>
+            <p class="faq-text">
+                React was born not in the Facebook application that we all see, but in Facebook’s Ads organization.
+Originally, they used a typical client-side MVC model to start with, which had all the regular two-way data
+binding and templates. Views would listen to changes on models, and they would respond to those changes
+by updating themselves.
+            </p>
+            <button  class="faq-toggle">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+      
+        <div class="faq ">
+            <h3 class="faq-title">
+                what is Node.js ?
+            </h3>
+            <p class="faq-text">
+                Node.js is JavaScript outside of a browser. The creators of Node.js just took Chrome’s V8
+                JavaScript engine and made it run independently as a JavaScript runtime. If you are familiar with the Java
+                runtime that runs Java programs, you can easily relate to the JavaScript runtime: the Node.js runtime runs
+                JavaScript programs.
+            </p>
+            <button  class="faq-toggle">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        
+        <div class="faq">
+            <h3 class="faq-title">
+                what is MongoDB ?
+            </h3>
+            <p class="faq-text">
+                MongoDB is the database used in the MERN stack. It is a NoSQL document-oriented database, with a
+                flexible schema and a JSON-based query language. Not only do many modern companies (including
+                Facebook and Google) use MongoDB in production, but some older established companies such as SAP and
+                Royal Bank of Scotland have adopted MongoDB.
+            </p>
+            <button  class="faq-toggle">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
